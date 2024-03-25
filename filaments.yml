@@ -1,0 +1,20 @@
+---
+filaments:
+  PLA:
+    Polymaker: 
+      PolyLite:
+        filament : 190-215
+        bed: 40-60
+        colors:
+          - White 
+          - Black
+          - Natural
+          - Olive Green
+    Amolen:
+      Glow:
+        filament : 190-220
+        colors:
+          - Green
+          - Deep Blue
+          - Blue
+          - Multicolor
