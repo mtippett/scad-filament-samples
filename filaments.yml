@@ -1,20 +1,54 @@
 ---
 filaments:
   PLA:
+    Pruasament:
+      rPLA:
+        filament: 195-215
+        bed: 40-60
+        colors:
+          - Risotto
     Polymaker: 
       PolyLite:
         filament : 190-215
-        bed: 40-60
+        bed: 25-60
         colors:
           - White 
           - Black
           - Natural
           - Olive Green
     Amolen:
-      Glow:
+      Glow in the dark:
         filament : 190-220
         colors:
           - Green
           - Deep Blue
           - Blue
           - Multicolor
+  PETG:
+    Prusa:
+      Prusament:
+        filament: 240-260
+        bed: 70-90
+        colors:
+          - Prusa Orange
+          - Jet Black
+          - Black
+    Polymaker:
+      PolyLite:
+        filament: 230-240
+        bed: 70-80
+        colors:
+          - Translucent Green
+          - White
+          - Dark Blue
+          - Red
+          - Orange
+          - Clear
+          - Urban Grey
+  PVB:
+    Prusa:
+      Prusament:
+        filament: 205-225
+        bed: 60-80
+        colors:
+          - Natura

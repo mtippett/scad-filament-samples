@@ -18,7 +18,7 @@ class Filament:
 
 
 class Worker:
-    def __init__(self, q: queue.Queue, num_workers=4):
+    def __init__(self, q: queue.Queue, num_workers=30):
         self.num_workers = num_workers
         self.q = q
 
@@ -40,7 +40,7 @@ class Worker:
                 )
 
                 if not os.path.isdir(dir):
-                    os.makedirs(dir)
+                    os.makedirs(dir,exist_ok=True)
 
                 file = f"{dir}/{item.color}.stl".replace(
                     " ", "_"
@@ -50,12 +50,15 @@ class Worker:
                     print(file)
                     for field in dataclasses.fields(item):
                         value = getattr(item,field.name)
-                        print(field.name)
+
+                        if field.name == "filament_type":
+                            new_value = " " + " ".join(value)
+                            value = new_value
 
                         if value:
                             field_entries += [
                                 "-D",
-                                f'{field.name}="{getattr(item,field.name)}"',
+                                f'{field.name}="{value}"',
                             ]
                     cmd = f"openscad ./Configurable_Filament_Swatch_Edgy_VZE.scad -o {file}".split() + field_entries
 
