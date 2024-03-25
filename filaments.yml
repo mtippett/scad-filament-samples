@@ -45,6 +45,15 @@ filaments:
           - Orange
           - Clear
           - Urban Grey
+    California Filament:
+      PETG:
+        filament: 230-240
+        bed: 85
+        colors:
+          - Paper White
+          - Almond
+          - Matte Olive Green
+          - Beige
   PVB:
     Prusa:
       Prusament:

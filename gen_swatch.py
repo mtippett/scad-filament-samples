@@ -71,7 +71,7 @@ class Worker:
 
 def main():
     with open("filaments.yml") as file:
-        filaments = yaml.load(file)
+        filaments = yaml.load(file,Loader=yaml.FullLoader)
 
     q = queue.Queue()
     w = Worker(q=q)
