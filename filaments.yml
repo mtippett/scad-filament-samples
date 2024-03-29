@@ -46,7 +46,7 @@ filaments:
           - Red
           - Translucent Green
           - White
-    California Filament:
+    Cali Filament:
       PETG:
         filament: 230-240
         bed: 85
