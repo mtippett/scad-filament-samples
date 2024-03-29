@@ -12,17 +12,17 @@ filaments:
         filament : 190-215
         bed: 25-60
         colors:
-          - White 
           - Black
           - Natural
           - Olive Green
+          - White 
     Amolen:
       Glow in the dark:
         filament : 190-220
         colors:
-          - Green
-          - Deep Blue
           - Blue
+          - Deep Blue
+          - Green
           - Multicolor
   PETG:
     Prusa:
@@ -30,31 +30,35 @@ filaments:
         filament: 240-260
         bed: 70-90
         colors:
-          - Prusa Orange
-          - Jet Black
           - Black
+          - Jet Black
+          - Prusa Orange
           - Urban Grey
     Polymaker:
       PolyLite:
         filament: 230-240
         bed: 70-80
         colors:
+          - Clear
+          - Dark Blue
+          - Green
+          - Orange
+          - Red
           - Translucent Green
           - White
-          - Dark Blue
-          - Red
-          - Orange
-          - Clear
-          - Urban Grey
     California Filament:
       PETG:
         filament: 230-240
         bed: 85
         colors:
-          - Paper White
           - Almond
-          - Matte Olive Green
           - Beige
+          - Paper White
+      Matte PETG:
+        filament: 210-230
+        bed: 85
+        colors:
+          - Olive Green
   PVB:
     Prusa:
       Prusament:

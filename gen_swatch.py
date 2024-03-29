@@ -1,3 +1,5 @@
+#!env python3
+
 import dataclasses
 import os
 import subprocess
