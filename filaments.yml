@@ -8,6 +8,11 @@ filaments:
         colors:
           - Risotto
     Polymaker: 
+      PolyTerra:
+        filament : 190-215
+        bed: 25-60
+        colors:
+          - Marble 
       PolyLite:
         filament : 190-215
         bed: 25-60
@@ -38,6 +43,9 @@ filaments:
       PolyLite:
         filament: 230-240
         bed: 70-80
+        fan: Off
+        target-filament: 235
+        target-bed: 75
         colors:
           - Clear
           - Dark Blue
