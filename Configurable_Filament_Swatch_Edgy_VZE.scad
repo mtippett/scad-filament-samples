@@ -268,7 +268,7 @@ module text_at(str,size,font,x,y,z,height,halign="left",valign="center") {
 module bambu_swatch()
 {
 	import("bambu_swatch.stl");
-    text_at(str=filament_type,size=5,font=fontname,x=12,y=12,z=0, height=2,halign="center");
+    text_at(str=filament_type,size=5,font=fontname,x=12,y=12,z=2, height=2,halign="center");
     // text_at(str=filament_type,size=5,font=fontname,x=12,y=24-20,z=0, height=3,halign="center");
     // text_at(str=filament_type,size=5,font=fontname,x=12,y=24-10,z=0, height=3,halign="center");
 

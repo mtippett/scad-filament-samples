@@ -12,7 +12,7 @@ filaments:
         filament : 190-215
         bed: 25-60
         colors:
-          - Marble 
+          - Sandstone Marble 
       PolyLite:
         filament : 190-215
         bed: 25-60
